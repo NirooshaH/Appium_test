@@ -22,7 +22,7 @@ public class ecommerce_TC001 extends Base_test{
 	@Test(priority = 0)
 	public void testcase1() throws InterruptedException, IOException {
 		
-		//Testcase: Fill the form details and verify are you able to login
+		//Testcase 1 : Fill the form details and verify are you able to login
 	
 		AndroidDriver<AndroidElement> driver=capabality();
 		driver.findElementById("com.androidsample.generalstore:id/nameField").sendKeys("Niroosha");
