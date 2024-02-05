@@ -13,7 +13,7 @@ import io.appium.java_client.android.AndroidElement;
 public class ecommerce_TC002 extends Base_test{
 	@Test
 	public void testcase2() throws MalformedURLException, InterruptedException {
-	//2.Shop the items in the app by scrolling to specific product and add to cart
+	//Test case 2.Shop the items in the app by scrolling to specific product and add to cart
 		AndroidDriver<AndroidElement> driver=capabality();
 		driver.findElementById("com.androidsample.generalstore:id/nameField").sendKeys("Niroosha");
 		driver.hideKeyboard();
